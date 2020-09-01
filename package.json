@@ -1,0 +1,35 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "Test Task for Funbox",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "testtask",
+    "funbox"
+  ],
+  "browserList": [
+    "> 1%",
+    "last version"
+  ],
+  "author": "Anna Shirshikova <anna.shirshikova97@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.11.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
